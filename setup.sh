@@ -5,6 +5,8 @@ mkdir -p site && cd site
 wget https://github.com/startbootstrap/startbootstrap-freelancer/archive/refs/heads/gh-pages.zip
 unzip gh-pages.zip
 mv startbootstrap-freelancer-gh-pages/* .
+rm -rf startbootstrap-freelancer-gh-pages
+rm gh-pages.zip
 cd ..
 
 echo "🛠️ Construyendo imagen..."
